@@ -3,23 +3,55 @@
   <head>
     <meta charset="utf-8">
     <title>Summer Redko Design</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <nav>
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn"><img src="images/hamburger.png"</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">ABOUT</a>
-          <a href="#">RESUME</a>
-          <a href="#">CONTACT</a>
-        </div>
-      </div>
-    </nav>
-    <header>
-      <h1>Hi! My name is Summer. I'm a UX/UI Designer who loves to code in and around Northampton, MA.</h1>
+    <div class="head container">
+      <header>
+        <img src="images/logo-mobile.png" />
+        </header>
+
+        <nav>
+          <ul>
+            <li><a href="url">ABOUT</a></li>
+            <li><a href="url">WORK</a></li>
+            <li><a href="url">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <!--
+        <div id="topNav" class="navigation">
+    <span id="closebtn" onclick="navToggle()">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+    </span>
+  <div class="logo">
+    <img src=""/>
+  </div>
+
+  <ul class="menulist">
+    <li><a class="menuitems" href="#">ABOUT</a></li>
+    <li><a class="menuitems" href="#">CASE STUDIES</a></li>
+    <li><a class="menuitems" href="#">CONTACT</a></li>
+    <li><a class="menuitems" href="#">RESUME</a></li>
+  </ul>
+  </div>
+
+  <div id="main">
+  </div>-->
+
+      <section class="hero">
+      <h1>Hi! My name is Summer.<br>
+        I'm a UX/UI Designer who loves to code in and around Northampton, MA.</h1>
       <div class="tab">FEATURED PROJECT</div>
-    </header>
+      </section>
+    </div>
+
+
     <main>
+      <div class="project container">
       <section>
         <h2>thunderhead</h2>
         <h3>A cloud storage application for sharing, creating and organizing content.</h3>
@@ -28,7 +60,9 @@
         <img src="images/thunderhead-desktop.png">
       </section>
     </main>
+    </div>
     <footer>
+      <div class="foot container">
       <p>Let's make something <span>smart</span> and <span>beautiful</span> together.</p>
       <ul>
         <li><a href="mailto:summerredko@gmail.com"><img src="images/email.png" /></a><li>
@@ -37,6 +71,8 @@
         <li><a href="https://github.com/softanimal"><img src="images/github.png" alt="github" target="_blank" ></a><li>
       </ul>
       <div class="copyright"><p>Summer Redko, 2018. All rights reserved.</p></div>
+    </div>
     </footer>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
