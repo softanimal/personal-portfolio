@@ -656,11 +656,60 @@ footer p {
 }
 
 #resume a {
-  color: #D17A8F;  
+  color: #D17A8F;
 }
 
 #resume a:hover {
   color: #5A4859;
+}
+
+/*Contact Page*/
+
+.hero3 {
+  padding-bottom: 10%;
+}
+
+.hero3 h1 {
+  font-size: 2.5rem;
+}
+
+.contact-form {
+  background-color: #E0E3E6;
+  padding: 10%;
+  border-radius: 5px;
+}
+
+input {
+  padding-left: 1rem;
+  height: 4rem;
+}
+
+.contact-form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+textarea {
+  border: none;
+  height: 20rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  resize: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+.contact-send {
+  letter-spacing: 0.1rem;
+  background-color: #777177;
+  color: #fff;
+}
+
+.contact-send:hover {
+  background-color: #5A4859;
+  color: #fff;
 }
 
 /*Media Queries*/
