@@ -21,6 +21,10 @@ a {
   color: #fff;
 }
 
+a:hover {
+    color: #5A4859;
+}
+
 nav {
   display: none;
 }
@@ -31,6 +35,10 @@ main {
 
 .hero {
   padding-bottom: 10%;
+}
+
+.hero h1 {
+  font-size: 5rem;
 }
 
 .container {
@@ -176,9 +184,20 @@ footer p {
 }
 
 .email img {
-    width: 7%;
+    width: 18%;
     height: auto;
     margin-bottom: -7px;
+}
+
+.linkedin {
+    width: 100%;
+    height: auto;
+}
+
+.linkedin img {
+    width: 18%;
+    height: auto;
+
 }
 
 .twitter {
@@ -187,9 +206,10 @@ footer p {
 }
 
 .twitter img {
-    width: 7%;
+    width: 18%;
     height: auto;
     margin-bottom: -7px;
+
 }
 
 .github {
@@ -198,11 +218,24 @@ footer p {
 }
 
 .github img {
-    width: 7%;
+    width: 18%;
     height: auto;
     margin-bottom: -3px;
 }
 
+.column {
+  text-align: left;
+}
+
+.persona-alignment {
+  text-align: left;
+}
+
+.persona-font {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  text-decoration: underline;
+}
 
 /*drop down menu*/
 @import url(https://fonts.googleapis.com/css?family=Latos:400,300,700,900);
@@ -230,11 +263,9 @@ footer p {
     margin-right:auto;
 }
 
-
 .menulist {
     width:200px;
 }
-
 
 .logo {
     text-align:center;
@@ -306,7 +337,7 @@ footer p {
     position: absolute;
     text-decoration:none;
     top: 25px;
-    right: 25px;
+    right: -20px;
     font-size: 2rem !important;
     margin-right: 50px;
     z-index:100;
@@ -325,6 +356,12 @@ footer p {
 
 /*Project Page*/
 
+.tag {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20%;
+}
+
 .head2 {
   color: #FFDAD8;
   background-image: url("../images/thunderhead-p.png");
@@ -336,8 +373,9 @@ footer p {
   color: #fff;
   font-weight: 600;
   text-align: center;
-  font-size: 10rem;
-  padding-bottom: 10%;
+  font-size: 5rem;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .brown ul {
@@ -377,6 +415,7 @@ footer p {
 }
 
 .case-profile img {
+  display: none;
   width: 50%;
   height: auto;
 }
@@ -390,14 +429,15 @@ footer p {
     height: auto;
 }
 
-/* resize images */
 .personas img {
+  display: none;
     width: 100%;
     height: auto;
     border: 10px solid #5A4859;
 }
 
 .case-imgs {
+  display: none;
   width: 100%;
   height: auto;
 }
@@ -409,6 +449,7 @@ footer p {
 }
 
 .wireframe img {
+  display: none;
   width: 100%;
   height: auto;
   border: 10px solid #5A4859;
@@ -421,6 +462,7 @@ footer p {
 }
 
 .sketch img {
+  display: none;
   width: 100%;
   height: auto;
   border: 10px solid #5A4859;
@@ -433,6 +475,7 @@ footer p {
 }
 
 .type img {
+  display: none;
   width: 100%;
   height: auto;
   border: 10px solid #5A4859;
@@ -445,33 +488,29 @@ footer p {
 }
 
 .brand img {
+  display: none;
   width: 100%;
   height: auto;
   border: 10px solid #5A4859;
 }
 
 .logo2 {
+  display: none;
   width: 50%;
   height: auto;
   margin: auto;
 }
 
 .logo2 img {
-  width: 100%;
-  height: auto;
-  border: 10px solid #5A4859;
+  display: none;
 }
 
 .logo1 {
-  width: 50%;
-  height: auto;
-  margin: auto;
+  display: none;
 }
 
 .logo2 img {
-  width: 100%;
-  height: auto;
-  border: 10px solid #5A4859;
+  display: none;
 }
 
 .color {
@@ -481,6 +520,7 @@ footer p {
 }
 
 .color img {
+  display: none;
   width: 100%;
   height: auto;
   border: 10px solid #5A4859;
@@ -493,16 +533,17 @@ footer p {
 }
 
 .userflows img {
+  display: none;
   width: 100%;
   height: auto;
   border: 10px solid #5A4859;
 }
 
 .sitemap img {
+  display: none;
   width: 100%;
   height: auto;
   border: 10px solid #5A4859;
-
 }
 
 .sitemap {
@@ -512,6 +553,7 @@ footer p {
 }
 
 .case-imgs img {
+  display: none;
   width: 100%;
   height: auto;
   border: 10px solid #5A4859;
@@ -542,7 +584,6 @@ footer p {
   text-align: center;
   padding: 3%;
   background-color: #777177;
-
 }
 
 #prototype:hover {
@@ -550,15 +591,9 @@ footer p {
 }
 
 .research {
-  text-align: center;
-  font-size: 3rem;
-  background-color: #fff;
-  border: 1px solid #fff;
-  border-radius: 25px;
-}
+  font-weight: bold;
+  font-size: 2rem;
 
-.research li {
-  padding: 4%;
 }
 
 .usertesting {
@@ -566,11 +601,11 @@ footer p {
   font-size: 2rem;
   background-color: #fff;
   border: 1px solid #fff;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .usertesting li {
-  padding: 4%;
+  padding: 2%;
 }
 
 .research2 {
@@ -583,7 +618,7 @@ footer p {
 .research2 li {
   list-style-type: circle;
   list-style-position: inside;
-  padding: 4%;
+  padding: 1%;
 }
 
 .column ul {
@@ -591,27 +626,15 @@ footer p {
   font-size: 1.5rem;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding-top: 5%;
-  padding-right: 10%;
-  padding-bottom: 5%;
-  font-size: 1rem;
-}
-
 .row-drives {
   display: flex;
   width: 50%;
   height: auto;
   margin: auto;
-
 }
 
 .column-drives img {
+  display: none;
   width: 100%;
   height: auto;
   padding: 10%
@@ -632,6 +655,13 @@ footer p {
   vertical-align: bottom;
 }
 
+#resume a {
+  color: #D17A8F;  
+}
+
+#resume a:hover {
+  color: #5A4859;
+}
 
 /*Media Queries*/
 
@@ -651,10 +681,10 @@ footer p {
     margin-top: 70px;
   }
 
-nav ul {
+  nav ul {
   margin: 0;
   padding: 0;
-}
+  }
   nav li {
     display: inline;
     padding: 3%;
@@ -665,6 +695,79 @@ nav ul {
     color: #fff;
     text-decoration: none;
   }
+
+  .hero2 h1 {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 10rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 33.33%;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    font-size: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 6rem;
+  }
+
+  /*Social Media Icons*/
+
+  .email {
+      width: 100%;
+      height: auto;
+  }
+
+  .email img {
+      width: 9%;
+      height: auto;
+      margin-bottom: -7px;
+  }
+
+  .linkedin {
+      width: 100%;
+      height: auto;
+  }
+
+  .linkedin img {
+      width: 9%;
+      height: auto;
+
+  }
+
+  .twitter {
+      width: 100%;
+      height: auto;
+  }
+
+  .twitter img {
+      width: 9%;
+      height: auto;
+      margin-bottom: -7px;
+
+  }
+
+  .github {
+      width: 100%;
+      height: auto;
+  }
+
+  .github img {
+      width: 9%;
+      height: auto;
+      margin-bottom: -3px;
+  }
+
 
 }
 
@@ -684,14 +787,261 @@ nav ul {
       margin-top: 50px;
     }
 
-nav li {
-  display: inline;
-}
+    nav li {
+    display: inline;
+    }
 
-  nav a {
+    nav a {
     font-size: 1.5rem;
     color: #fff;
     text-decoration: none;
-  }
+    }
+
+    .hero2 h1 {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 10rem;
+    margin: 0 auto;
+    padding: 0;
+    }
+
+    .hero h1 {
+      font-size: 6rem;
+    }
+
+  /*Project Images*/
+
+  /*User Personas*/
+.personas {
+    width: 100%;
+    height: auto;
+}
+
+.personas img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 10px solid #5A4859;
+}
+
+/*Swot Analysis*/
+.row-drives {
+  display: flex;
+  width: 50%;
+  height: auto;
+  margin: auto;
+
+}
+
+.column-drives img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10%
+}
+
+/*User Flows*/
+.userflows {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.userflows img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+/*Sitemap*/
+.sitemap img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+
+}
+
+.sitemap {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+/*Wireframes*/
+.wireframe {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.wireframe img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+/*Brand Name*/
+.brand {
+  width: 30%;
+  height: auto;
+  margin: auto;
+}
+
+.brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+/*Hi-fi Prototype*/
+.case-imgs img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+.case-imgs {
+  width: 100%;
+  height: auto;
+}
+
+/*Logo*/
+.logo1 {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.logo1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+.logo2 {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin: auto;
+}
+
+.logo2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+/*Color Palette*/
+
+.color {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.color img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+/*Typography*/
+
+.type img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+.type {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+/*Sketching*/
+
+.sketch {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.sketch img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-size: 1rem;
+}
+
+/*Social Media Icons*/
+
+.email {
+    width: 100%;
+    height: auto;
+}
+
+.email img {
+    width: 7%;
+    height: auto;
+    margin-bottom: -7px;
+}
+
+.linkedin {
+    width: 100%;
+    height: auto;
+}
+
+.linkedin img {
+    width: 7%;
+    height: auto;
+}
+
+.twitter {
+    width: 100%;
+    height: auto;
+}
+
+.twitter img {
+    width: 7%;
+    height: auto;
+    margin-bottom: -7px;
+
+}
+
+.github {
+    width: 100%;
+    height: auto;
+}
+
+.github img {
+    width: 7%;
+    height: auto;
+    margin-bottom: -3px;
+}
+
 
 }
