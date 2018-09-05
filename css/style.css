@@ -38,7 +38,7 @@ main {
 }
 
 .hero h1 {
-  font-size: 5rem;
+  font-size: 3.7rem;
 }
 
 .container {
@@ -84,22 +84,31 @@ h4 {
 }
 
 .profile {
-    width: 100%;
-    height: auto;
-    padding-top: 5%;
+    background-image: url("../images/thunderhead-p.png");
+    background-size: cover;
+    padding-top: 9%;
+    padding-bottom: 9%;
 }
 
-.profile img {
-    width: 100%;
-    height: auto;
-    padding: 2% 0;
+.profile h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 5rem;
+  margin-bottom: 0;
 }
 
-.underline {
-  border-bottom: 0.3rem solid #D17A8F;
-  color: #5A4859;
-  font-size: 4rem;
+.tag-home {
+  color: #fff;
+}
 
+.case-link {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.profile-pad {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .tab {
@@ -112,19 +121,21 @@ h4 {
   padding: 1rem;
 }
 
-#work {
+.class {
   background-color: #fff;
   color: #5A4859;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-family: "Raleway", sans-serif;
-  width: 300px;
+  width: 240px;
   text-align: center;
   padding: 1rem;
 }
 
 .project {
   grid-area: project;
-  padding: 7rem 0;
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+
 }
 
 .designer {
@@ -134,7 +145,6 @@ h4 {
 footer {
   background-color: #5A4859;
   color: #fff;
-  padding: 10%;
 }
 
 footer li {
@@ -150,9 +160,15 @@ footer img {
 footer ul {
   padding: 0;
 }
+.build {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 10%;
+}
 
 .foot {
   background-color: #5A4859;
+  margin: 0;
 }
 
 footer p {
@@ -184,9 +200,9 @@ footer p {
 }
 
 .email img {
-    width: 18%;
+    width: 13%;
     height: auto;
-    margin-bottom: -7px;
+    margin-bottom: -5px;
 }
 
 .linkedin {
@@ -195,7 +211,7 @@ footer p {
 }
 
 .linkedin img {
-    width: 18%;
+    width: 13%;
     height: auto;
 
 }
@@ -206,9 +222,9 @@ footer p {
 }
 
 .twitter img {
-    width: 18%;
+    width: 13%;
     height: auto;
-    margin-bottom: -7px;
+    margin-bottom: -5px;
 
 }
 
@@ -218,9 +234,9 @@ footer p {
 }
 
 .github img {
-    width: 18%;
+    width: 13%;
     height: auto;
-    margin-bottom: -3px;
+    margin-bottom: -1px;
 }
 
 .column {
@@ -233,7 +249,7 @@ footer p {
 
 .persona-font {
   font-family: "Raleway", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: underline;
 }
 
@@ -354,6 +370,16 @@ footer p {
     font-size: 2rem;
 }
 
+.work {
+  background-color: #fff;
+  color: #5A4859;
+  font-size: 2.1rem;
+  font-family: "Raleway", sans-serif;
+  width: 240px;
+  text-align: center;
+  padding: 1rem;
+}
+
 /*Project Page*/
 
 .tag {
@@ -407,6 +433,18 @@ footer p {
 
 .brown p {
   padding: 2% 0;
+}
+
+.thunderhead-profile {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.thunderhead-profile img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .case-profile {
@@ -513,6 +551,14 @@ footer p {
   display: none;
 }
 
+.logo-sketch {
+  background-image: url("../images/logo-sketch.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;;
+  height: 500px;
+}
+
 .color {
   width: 50%;
   height: auto;
@@ -520,6 +566,19 @@ footer p {
 }
 
 .color img {
+  display: none;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
+.userstories {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.userstories img {
   display: none;
   width: 100%;
   height: auto;
@@ -623,7 +682,7 @@ footer p {
 
 .column ul {
   padding: 5% 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .row-drives {
@@ -770,6 +829,22 @@ textarea {
     font-size: 6rem;
   }
 
+  .work {
+    background-color: #fff;
+    color: #5A4859;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    width: 300px;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #prototype {
+    width: 40%;
+    margin: 0 auto;
+    padding: 1.5%;
+  }
+
   /*Social Media Icons*/
 
   .email {
@@ -778,7 +853,7 @@ textarea {
   }
 
   .email img {
-      width: 9%;
+      width: 7%;
       height: auto;
       margin-bottom: -7px;
   }
@@ -789,7 +864,7 @@ textarea {
   }
 
   .linkedin img {
-      width: 9%;
+      width: 7%;
       height: auto;
 
   }
@@ -800,7 +875,7 @@ textarea {
   }
 
   .twitter img {
-      width: 9%;
+      width: 7%;
       height: auto;
       margin-bottom: -7px;
 
@@ -812,7 +887,7 @@ textarea {
   }
 
   .github img {
-      width: 9%;
+      width: 7%;
       height: auto;
       margin-bottom: -3px;
   }
@@ -857,6 +932,12 @@ textarea {
 
     .hero h1 {
       font-size: 6rem;
+    }
+
+    #prototype {
+      width: 30%;
+      margin: 0 auto;
+      padding: 1.5%;
     }
 
   /*Project Images*/
@@ -904,6 +985,20 @@ textarea {
   border: 10px solid #5A4859;
 }
 
+/*User Stories*/
+.userstories {
+  width: 75%;
+  height: auto;
+  margin: auto;
+}
+
+.userstories img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #5A4859;
+}
+
 /*Sitemap*/
 .sitemap img {
   display: block;
@@ -911,6 +1006,18 @@ textarea {
   height: auto;
   border: 10px solid #5A4859;
 
+}
+
+.thunderhead-profile {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.thunderhead-profile img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .sitemap {
