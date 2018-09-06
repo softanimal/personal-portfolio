@@ -462,6 +462,18 @@ footer p {
   padding: 10% 5%;
 }
 
+.logo-section {
+  padding: 1% 5%;
+}
+
+.logo-section h2 {
+  text-align: center;
+  padding: 1%;
+}
+
+.logo-phrase {
+  padding: 5% 0 0 0;
+}
 .personas {
     width: 100%;
     height: auto;
@@ -552,11 +564,15 @@ footer p {
 }
 
 .logo-sketch {
-  background-image: url("../images/logo-sketch.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: auto;;
-  height: 500px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0;
+}
+
+.logo-sketch img {
+  width: 100%;
+  height: auto;
 }
 
 .color {
@@ -622,6 +638,14 @@ footer p {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
   color: #D17A8F;
+}
+
+.view-logo {
+  padding: 2% 0 7% 0;
+}
+
+.view-section p {
+  padding: 0;
 }
 
 .view-b {
@@ -697,6 +721,19 @@ footer p {
   width: 100%;
   height: auto;
   padding: 10%
+}
+
+.invision {
+  display: none;
+  width: 50%;
+  height: auto;
+  margin: auto;
+
+}
+
+.invision img {
+  width: 100%;
+  height: auto;
 }
 
 /*About Page*/
@@ -1151,6 +1188,19 @@ textarea {
   padding-right: 10%;
   padding-bottom: 5%;
   font-size: 1rem;
+}
+
+.invision {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin: auto;
+    border: 10px solid #5A4859;
+}
+
+.invision img {
+  width: 100%;
+  height: auto;
 }
 
 /*Social Media Icons*/
