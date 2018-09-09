@@ -38,7 +38,7 @@ main {
 }
 
 .hero h1 {
-  font-size: 3.7rem;
+  font-size: 3.5rem;
 }
 
 .container {
@@ -119,6 +119,7 @@ h4 {
   width: 300px;
   text-align: center;
   padding: 1rem;
+  margin: 0 auto;
 }
 
 .class {
@@ -382,10 +383,15 @@ footer p {
 
 /*Project Page*/
 
+.prob-sol-mobile {
+  display: flex;
+  flex-direction: column;
+}
+
 .tag {
   color: #fff;
   text-align: center;
-  padding-bottom: 20%;
+  padding-bottom: 5%;
 }
 
 .head2 {
@@ -414,7 +420,7 @@ footer p {
 
 .brown {
   background-color: #D4CED4;
-  padding: 10% 5%;
+  padding: 5% 5%;
 }
 
 .brown h2 {
@@ -459,11 +465,11 @@ footer p {
 }
 
 .white {
-  padding: 10% 5%;
+  padding: 5% 5%;
 }
 
 .logo-section {
-  padding: 1% 5%;
+  padding: 0;
 }
 
 .logo-section h2 {
@@ -472,7 +478,7 @@ footer p {
 }
 
 .logo-phrase {
-  padding: 5% 0 0 0;
+  padding: 0;
 }
 .personas {
     width: 100%;
@@ -493,7 +499,7 @@ footer p {
 }
 
 .wireframe {
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -506,7 +512,7 @@ footer p {
 }
 
 .sketch {
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -682,7 +688,7 @@ footer p {
 .usertesting {
   text-align: center;
   font-size: 2rem;
-  background-color: #fff;
+  background-color: #D4CED4;
   border: 1px solid #fff;
   border-radius: 10px;
 }
@@ -705,7 +711,7 @@ footer p {
 }
 
 .column ul {
-  padding: 5% 0;
+  padding: 0;
   font-size: 2rem;
 }
 
@@ -852,6 +858,14 @@ textarea {
 
   .row {
     display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+  }
+
+  .row-alt {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
   }
 
   .column {
@@ -1049,12 +1063,14 @@ textarea {
   width: 90%;
   height: auto;
   margin: auto;
+
 }
 
 .thunderhead-profile img {
   display: block;
   width: 100%;
   height: auto;
+  padding-bottom: 5%;
 }
 
 .sitemap {
@@ -1065,7 +1081,7 @@ textarea {
 
 /*Wireframes*/
 .wireframe {
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -1166,7 +1182,7 @@ textarea {
 /*Sketching*/
 
 .sketch {
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -1179,6 +1195,10 @@ textarea {
 }
 
 .row {
+  display: flex;
+}
+
+.row-alt {
   display: flex;
 }
 
@@ -1248,6 +1268,28 @@ textarea {
     height: auto;
     margin-bottom: -3px;
 }
+
+.prob-mobile {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.sol-mobile {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.pro-so {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
 
 
 }
