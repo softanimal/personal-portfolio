@@ -107,8 +107,8 @@ h4 {
 }
 
 .profile-pad {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 1%;
+
 }
 
 .tab {
@@ -393,6 +393,11 @@ footer p {
 
 /*Project Page*/
 
+.intro {
+  text-align: center;
+  margin-top: -20px;
+}
+
 .prob-sol-mobile {
   display: flex;
   flex-direction: column;
@@ -401,7 +406,8 @@ footer p {
 .tag {
   color: #fff;
   text-align: center;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
+  font-size: 2.5rem;
 }
 
 .head2 {
@@ -429,7 +435,7 @@ footer p {
 }
 
 .brown {
-  background-color: #D4CED4;
+  background-color: #EEE;
   padding: 5% 5%;
 }
 
@@ -500,6 +506,10 @@ footer p {
     width: 100%;
     height: auto;
     border: 10px solid #5A4859;
+}
+
+.persona-pad {
+  margin-top: -20px;
 }
 
 .case-imgs {
@@ -698,7 +708,7 @@ footer p {
 .usertesting {
   text-align: center;
   font-size: 2rem;
-  background-color: #D4CED4;
+  background-color: #EEE;
   border: 1px solid #fff;
   border-radius: 10px;
 }
@@ -709,9 +719,6 @@ footer p {
 
 .research2 {
   font-size: 2rem;
-  background-color: #D4CED4;
-  border: 1px solid #D4CED4;
-  border-radius: 25px;
 }
 
 .research2 li {
@@ -876,6 +883,7 @@ textarea {
     display: flex;
     flex-direction: row;
     padding-left: 0;
+    margin-top: -50px;
   }
 
   .column {
