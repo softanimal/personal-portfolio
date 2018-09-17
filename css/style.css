@@ -269,7 +269,7 @@ footer p {
 
 .navigation {
     width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
@@ -292,6 +292,7 @@ footer p {
 
 .menulist {
     width:200px;
+
 }
 
 .logo {
@@ -370,7 +371,7 @@ footer p {
     z-index:100;
     color:#fff;
     cursor:pointer;
-    trainsition:background-position .3s;
+    transition:background-position .3s;
 }
 
 #main {
