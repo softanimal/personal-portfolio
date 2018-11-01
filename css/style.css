@@ -90,7 +90,21 @@ h4 {
     padding-bottom: 9%;
 }
 
+.profile2 {
+    background-image: url("../images/flavio2.jpg");
+    background-size: cover;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
 .profile h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.profile2 h1 {
   color: #fff;
   font-weight: 600;
   font-size: 5rem;
@@ -414,6 +428,13 @@ footer p {
 .head2 {
   color: #FFDAD8;
   background-image: url("../images/thunderhead-p.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-spinden {
+  color: #FFDAD8;
+  background-image: url("../images/flavio2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
