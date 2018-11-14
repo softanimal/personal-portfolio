@@ -410,8 +410,8 @@ footer p {
 
 .intro {
   text-align: center;
-  margin-top: -20px;
 }
+
 
 .prob-sol-mobile {
   display: flex;
@@ -489,6 +489,7 @@ footer p {
   display: block;
   width: 100%;
   height: auto;
+  padding-bottom: 10%;
 }
 
 .case-profile {
@@ -1107,7 +1108,6 @@ textarea {
       width: 90%;
       height: auto;
       margin: auto;
-
     }
 
     .thunderhead-profile img {
