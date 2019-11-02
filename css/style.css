@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-    color: #5A4859;
+    color: #DAF7A6;
 }
 
 nav {
@@ -700,7 +700,7 @@ footer p {
 .view-b {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
-  color: #fff;
+  color: #fff
 }
 
 .column h2 {
