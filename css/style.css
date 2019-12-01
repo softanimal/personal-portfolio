@@ -46,6 +46,11 @@ main {
   width: 90%;
 }
 
+.container-about {
+  margin: 0 auto;
+  width: 57%;
+}
+
 .head {
   color: #FFDAD8;
   background: linear-gradient(5deg, #D3758B, #461D5C);
@@ -785,10 +790,11 @@ footer p {
 /*About Page*/
 
 .bio-photo {
-  width: 100%;
-  heigth: auto;
+  width: 75%;
+  height: auto;
   border: 30px solid #fff;
-  margin: 0 auto 50px auto;
+  border-bottom: 0;
+  margin: 0 auto 0px auto;
 }
 
 .bio-photo img {
@@ -798,7 +804,7 @@ footer p {
 }
 
 #resume a {
-  color: #D17A8F;
+  color: #D3758B;
 }
 
 #resume a:hover {
