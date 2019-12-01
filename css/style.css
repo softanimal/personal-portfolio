@@ -48,7 +48,7 @@ main {
 
 .container-about {
   margin: 0 auto;
-  width: 57%;
+  width: 80%;
 }
 
 .head {
@@ -192,7 +192,6 @@ footer ul {
 }
 .build {
   padding-top: 10%;
-  padding-bottom: 10%;
   padding-right: 10%;
 }
 
@@ -230,9 +229,10 @@ footer p {
 }
 
 .email img {
-    width: 13%;
+    width: 12%;
     height: auto;
-    margin-bottom: -5px;
+    margin-left: -5px;
+    margin-bottom: 50px;
 }
 
 .linkedin {
@@ -241,8 +241,10 @@ footer p {
 }
 
 .linkedin img {
-    width: 13%;
+    width: 10%;
     height: auto;
+    margin-left: 0;
+    margin-bottom: 50px;
 
 }
 
@@ -252,9 +254,10 @@ footer p {
 }
 
 .twitter img {
-    width: 13%;
+    width: 10%;
     height: auto;
-    margin-bottom: -5px;
+    margin-bottom: 50px;
+    margin-left: 0;
 
 }
 
@@ -264,9 +267,10 @@ footer p {
 }
 
 .github img {
-    width: 13%;
+    width: 10%;
     height: auto;
-    margin-bottom: -1px;
+    margin-bottom: 50px;
+    margin-left: 0;
 }
 
 .column {
@@ -790,9 +794,9 @@ footer p {
 /*About Page*/
 
 .bio-photo {
-  width: 75%;
+  width: 90%;
   height: auto;
-  border: 30px solid #fff;
+  border: 15px solid #fff;
   border-bottom: 0;
   margin: 0 auto 0px auto;
 }
@@ -945,15 +949,16 @@ textarea {
 
   /*Social Media Icons*/
 
-  .email {
+  ..email {
       width: 100%;
       height: auto;
   }
 
   .email img {
-      width: 7%;
+      width: 10%;
       height: auto;
-      margin-bottom: -7px;
+      margin-left: -5px;
+      margin-bottom: 50px;
   }
 
   .linkedin {
@@ -962,8 +967,10 @@ textarea {
   }
 
   .linkedin img {
-      width: 7%;
+      width: 8%;
       height: auto;
+      margin-left: 0;
+      margin-bottom: 50px;
 
   }
 
@@ -973,9 +980,10 @@ textarea {
   }
 
   .twitter img {
-      width: 7%;
+      width: 8%;
       height: auto;
-      margin-bottom: -7px;
+      margin-bottom: 50px;
+      margin-left: 0;
 
   }
 
@@ -985,15 +993,34 @@ textarea {
   }
 
   .github img {
-      width: 7%;
+      width: 8%;
       height: auto;
-      margin-bottom: -3px;
+      margin-bottom: 50px;
+      margin-left: 0;
   }
 
   .build p {
-    margin-bottom: 1%;
+    padding-bottom: 0;
   }
 
+  .bio-photo {
+    width: 70%;
+    height: auto;
+    border: 20px solid #fff;
+    border-bottom: 0;
+    margin: 0 auto 0px auto;
+  }
+
+  .bio-photo img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+  }
+
+  .container-about {
+    margin: 0 auto;
+    width: 67%;
+  }
 
 }
 
@@ -1287,7 +1314,8 @@ textarea {
     .email img {
         width: 7%;
         height: auto;
-        margin-bottom: -7px;
+        margin-left: -5px;
+        margin-bottom: 50px;
     }
 
     .linkedin {
@@ -1296,8 +1324,11 @@ textarea {
     }
 
     .linkedin img {
-        width: 7%;
+        width: 5%;
         height: auto;
+        margin-left: -20px;
+        margin-bottom: 50px;
+
     }
 
     .twitter {
@@ -1306,9 +1337,10 @@ textarea {
     }
 
     .twitter img {
-        width: 7%;
+        width: 5%;
         height: auto;
-        margin-bottom: -7px;
+        margin-bottom: 50px;
+        margin-left: -20px;
 
     }
 
@@ -1318,9 +1350,10 @@ textarea {
     }
 
     .github img {
-        width: 7%;
+        width: 5%;
         height: auto;
-        margin-bottom: -3px;
+        margin-bottom: 50px;
+        margin-left: -20px;
     }
 
     .prob-mobile {
@@ -1341,7 +1374,26 @@ textarea {
     }
 
     .build p {
-    margin-bottom: 1%;
+    margin-bottom: 10px;
+    }
+
+    .bio-photo {
+      width: 70%;
+      height: auto;
+      border: 20px solid #fff;
+      border-bottom: 0;
+      margin: 0 auto 0 auto;
+    }
+
+    .bio-photo img {
+      width: 100%;
+      height: auto;
+      vertical-align: bottom;
+    }
+
+    .container-about {
+      margin: 0 auto;
+      width: 67%;
     }
 
   }
