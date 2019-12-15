@@ -828,12 +828,14 @@ font-size: 3rem;
 
 /*Contact Page*/
 
+.hero3 {}
+
 .hero3 {
   padding-bottom: 10%;
 }
 
 .hero3 h1 {
-  font-size: 2.5rem;
+  font-size: 5rem;
 }
 
 .contact-form {
