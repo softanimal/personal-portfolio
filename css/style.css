@@ -1,4 +1,4 @@
-* {
+e* {
   box-sizing: border-box;
 }
 
@@ -102,6 +102,13 @@ h4 {
     padding-bottom: 9%;
 }
 
+.profile3 {
+    background-image: url("../images/surfer6.png");
+    background-size: cover;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
 .profile h1 {
   color: #fff;
   font-weight: 600;
@@ -110,6 +117,13 @@ h4 {
 }
 
 .profile2 h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.profile3 h1 {
   color: #fff;
   font-weight: 600;
   font-size: 5rem;
@@ -1035,6 +1049,13 @@ textarea {
     width: 67%;
   }
 
+  .profile3 {
+      background-image: url("../images/surfer6.png");
+      background-size: cover;
+      padding-top: 9%;
+      padding-bottom: 9%;
+  }
+
 }
 
 
@@ -1408,6 +1429,13 @@ textarea {
     .container-about {
       margin: 0 auto;
       width: 67%;
+    }
+
+    .profile3 {
+        background-image: url("../images/surfer6.png");
+        background-size: cover;
+        padding-top: 9%;
+        padding-bottom: 9%;
     }
 
   }
