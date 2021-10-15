@@ -835,18 +835,14 @@ font-size: 3rem;
 
 /*About Page*/
 
-.bio-photo {
-  width: 90%;
-  height: auto;
-  border: 15px solid #fff;
-  border-bottom: 0;
-  margin: 0 auto 0px auto;
-}
 
-.bio-photo img {
-  width: 100%;
+.photo-bio img {
+  width: 15%;
   height: auto;
-  vertical-align: bottom;
+  float: left;
+  padding-right: 20px;
+  margin-left: 200px;
+  margin-top: 50px;
 }
 
 #resume a {
