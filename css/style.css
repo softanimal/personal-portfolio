@@ -116,9 +116,6 @@ h4 {
     padding-bottom: 9%;
 }
 
-
-
-
 .profile h1 {
   color: #fff;
   font-weight: 600;
@@ -282,7 +279,6 @@ footer p {
     height: auto;
     margin-left: 0;
     margin-bottom: 50px;
-
 }
 
 .twitter {
@@ -295,7 +291,6 @@ footer p {
     height: auto;
     margin-bottom: 50px;
     margin-left: 0;
-
 }
 
 .github {
@@ -837,11 +832,9 @@ font-size: 3rem;
 
 
 .photo-bio img {
-  width: 15%;
+  width: 50%;
   height: auto;
-  float: left;
-  padding-right: 20px;
-  margin-left: 200px;
+  margin-left: 125px;
   margin-top: 50px;
 }
 
@@ -909,6 +902,13 @@ textarea {
 @media screen and (min-width: 768px) {
   .container {
     width: 70rem;
+  }
+
+  .photo-bio img {
+    width: 50%;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 50px;
   }
 
   #topNav {
@@ -989,7 +989,7 @@ textarea {
 
   /*Social Media Icons*/
 
-  ..email {
+  .email {
       width: 100%;
       height: auto;
   }
@@ -1075,6 +1075,15 @@ textarea {
 @media screen and (min-width: 1000px) {
   .container {
     width: 98rem;
+  }
+
+  .photo-bio img {
+    width: 15%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
   }
 
   #topNav {
